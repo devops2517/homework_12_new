@@ -1,5 +1,5 @@
 FROM maven:3.6.3-jdk-8 AS build
-WORKDIR /homework_12
+WORKDIR /App42PaaS-Java-MySQL-Sample-master
 RUN apt install maven
 RUN mvn clean
 RUN mvn install
