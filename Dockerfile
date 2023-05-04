@@ -1,5 +1,5 @@
 FROM maven:3.6.3-jdk-8 AS build
-RUN cd homework12_new
+RUN cd homework_12_new
 RUN mvn clean -Xe
 RUN mvn install
 RUN mvn package -DskipTests
